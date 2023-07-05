@@ -11,5 +11,7 @@ A custom network protocol over UDP programmed to reliably send real time traffic
   Network Model
 </p>
 
-## Technologies
- ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+## Softwares and Technologies
+<div align="center">
+   <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white"/>
+</div>
