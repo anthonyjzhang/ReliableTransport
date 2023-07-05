@@ -172,35 +172,10 @@ def getFairness(out1, out2):
     s2 = 0
     k = 0
     while i+k < l1 and j+k < l2:
-        # print(seq1[i+k][1], seq2[j+k][1], fairnessIndex(seq1[i+k][1], seq2[j+k][1]))
         s1 += seq1[i+k][1]
         s2 += seq2[j+k][1]
         k += 1
     return fairnessIndex(s1, s2)
-
-    # s1 = 0
-    # s2 = 0
-    # sumf = 0
-    # for k in range(0, wind):
-    #     sumf += fairnessIndex(seq1[i+k][1], seq2[j+k][1])
-    #     # s1 += seq1[i+k][1]
-    #     # s2 += seq2[j+k][1]
-
-    # res = max(0.5, sumf/wind)
-    # # res = max(0.5, fairnessIndex(s1, s2))
-    # while i+wind < l1 and j+wind < l2:
-    #     sumf -= fairnessIndex(seq1[i][1], seq2[j][1])
-    #     sumf += fairnessIndex(seq1[i+wind][1], seq2[j+wind][1])
-    #     res = max(res, sumf/wind)
-    #     # s1 -= seq1[i][1]
-    #     # s1 += seq1[i+wind][1]
-    #     # s2 -= seq2[j][1]
-    #     # s2 += seq2[j+wind][1]
-    #     # res = max(res, fairnessIndex(s1, s2))
-    #     i += 1
-    #     j += 1
-
-    # return res
 
 
 def runFairness(i, config, param):
